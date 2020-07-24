@@ -2,13 +2,13 @@
   padding: 0;
   margin:0;
 }
-.one{
-  background-size: cover;
+/* .one{ */
+  /* background-size: cover;
   background: red;
   min-height: 600px;
-}
+} */
 .three{
-  margin-top: 30px;
+  margin-top: 0;
   width: 100%;
   float: left;
   /* margin-left: 15%; */
@@ -16,12 +16,18 @@
   background-color: white;
 
 }
-.three1{
+.three-1, .three-2, .three-3{
   width: 25%;
   float: left;
   margin-left: 7%;
 }
-.c3{
+.b1, .b3, .b5{
+  display: block;
+}
+.b2, .b4, .b6{
+  display: none;
+}
+.c3, .c6, .z2{
   width: 200px;
   height: 200px;
   float: left;
@@ -42,14 +48,19 @@
   margin-left: -13%;
   text-transform: uppercase;
 }
+.three-1{
+  width:200px;
+  height: 300px;
+}
 
-/* four */
 .four{
-  background: url('assets/backgrounds/c_image.jpg');
-  min-height: 500px;
+  background:url('assets/backgrounds/c_image.jpg');
   width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  float: left;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  min-height: 500px;
+  color: white;
 
 }
 .four h3{
@@ -57,7 +68,50 @@
   line-height: 80px;
 }
 .l1{
-  border: 1px solid black;
-  width: 300px;
+  background: transparent;
+  border: 1px solid white;
+  min-width: 250px;
+  margin-left: 27%;
+  color:white;
+
   
+}
+.l2{
+  width: 250px;
+  margin-left: 20px;
+  background: transparent;
+  border: 1px solid white;
+  color:white;
+}
+.l3{
+  width: 41.5%;
+  text-align: center;
+  margin-left: 27%;
+  float: left;
+  margin-top: 20px;
+  min-height: 200px;
+  background: transparent;
+  border: 1px solid white;
+  color:white;
+}
+section{
+  min-height: 1410px;
+}
+.five{
+  width: 60%;
+  margin-left: 28%; 
+}
+.five img{
+  align-content: center;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+.six p{
+  width: 100%;
+  text-align: center;
+  font-size:.9rem;
+  margin-top:20px;
+}
+#z1{
+  display: none;
 }
