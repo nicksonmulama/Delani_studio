@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin:0;
+}
+.one{
+  background-size: cover;
+  background: red;
+  min-height: 600px;
+}
+.three{
+  margin-top: 30px;
+  width: 100%;
+  float: left;
+  /* margin-left: 15%; */
+  min-height: 500px;
+  background-color: white;
+
+}
+.three1{
+  width: 25%;
+  float: left;
+  margin-left: 7%;
+}
+.c3{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin:20px 20px 30px 15px;
+  padding: 0;
+
+}
+.threee{
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+.three h3{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  margin-left: -13%;
+  text-transform: uppercase;
+}
+
+/* four */
+.four{
+  background: url('assets/backgrounds/c_image.jpg');
+  min-height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.four h3{
+  text-align: center;
+  line-height: 80px;
+}
+.l1{
+  border: 1px solid black;
+  width: 300px;
+  
+}
