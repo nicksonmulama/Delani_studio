@@ -17,12 +17,13 @@
 
 }
 .three-1, .three-2, .three-3{
-  width: 25%;
+  width: 20%;
   float: left;
-  margin-left: 7%;
+  margin-left: 13%;
+  height: 20%;
 }
 .b1, .b3, .b5{
-  display: block;
+  display: block; 
 }
 .b2, .b4, .b6{
   display: none;
@@ -38,19 +39,23 @@
 .threee{
   width: 80%;
   float: left;
-  margin-left: 10%;
+  margin-top: 100px;
+  margin-left: 15%;
+}
+.threee1{
+  width: 80%;
+  float: left;
+  margin-left: 15%;
   margin-top: 50px;
+  
+
 }
 .three h3{
   text-align: center;
   margin-bottom: 30px;
   font-size: 30px;
-  margin-left: -13%;
+  /* margin-left: -10%; */
   text-transform: uppercase;
-}
-.three-1{
-  width:200px;
-  height: 300px;
 }
 
 .four{
@@ -112,6 +117,27 @@ section{
   font-size:.9rem;
   margin-top:20px;
 }
-#z1{
-  display: none;
+
+.threee-1,.threee-11, .threee-111, .threee-1111, .threee-11111, .threee-111111, .threee-1111111, .threee-11111111{
+  position: relative;
+  width: 200px;
+  height: 230px;
+  margin-right: 20px;
+  float: left;
+  border-left: 20px white;
+}
+.threee-1 img,.threee-11 img, .threee-111 img, .threee-1111 img, .threee-11111 img, .threee-111111 img, .threee-1111111 img, .threee-11111111 img{
+  width: 200px;
+  height: 200px;
+}
+.z3, .z33, .z333, .z3333, .z33333, .z333333,  .z3333333, .z33333333{
+  display:absolute;
+  display:none;
+  background-color:darkolivegreen;
+  width: 200px;
+  height: 60px;
+  margin-top: -60px;
+  color:yellow;
+  text-align: center;
+  font-size:30px;
 }
