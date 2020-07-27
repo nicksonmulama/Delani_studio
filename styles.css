@@ -141,3 +141,49 @@ section{
   text-align: center;
   font-size:30px;
 }
+.one{
+  background: url('assets/backgrounds/h_img.jpg');
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.one img{
+  margin-left: 46%;
+  margin-top: 20%;
+}
+.one1{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  /* line-height: 30px; */
+  line-height: 40px;
+
+}
+.nickson{
+  font-size: 30px;
+}
+.two1{
+  text-align:center ;
+  line-height: 35px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+}
+.two2{
+   background: url('assets/backgrounds/s_image.jpg');
+   height:300px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   text-align:center;
+   line-height: 30px;
+   color: white;
+   /* margin-top:70px ; */
+}
+.two2 h2{
+align-content: center;
+}
+.margin{
+  height: 70px;
+}
